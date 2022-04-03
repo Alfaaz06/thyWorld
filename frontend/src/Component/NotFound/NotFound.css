@@ -1,0 +1,39 @@
+.notFoundBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.notFound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.notFound>svg {
+    font-size: 8vmax;
+    color: red;
+}
+
+.notFound>h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.notFoundBox>a {
+    text-decoration: none;
+    color: red;
+    font-size: 2vmax;
+    border: 2px solid red;
+    transition: 1s;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 1rem;
+}
+
+.notFoundBox>a:hover {
+    color: white;
+    background-color: red;
+}
